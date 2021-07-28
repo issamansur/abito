@@ -6,3 +6,6 @@
 ### Технологии в проекте
 - HTML
 - CSS
+- Normalize
+- JS
+- Swiper
