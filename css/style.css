@@ -112,7 +112,7 @@ body{
 
 .card-image{
     border-radius:10px;
-    width: span 3;
+    width: 264px;
     height: 178px;
     object-fit: cover;
 }
@@ -209,4 +209,132 @@ body{
     text-decoration: none;
     display: inline-block;
     margin-bottom: 5px;
+}
+
+.main-single{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    column-gap: 30px;
+}
+
+.content{
+    max-width: 460px;
+    grid-column: span 5;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.mySwiper {
+    height: 10%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.content-text{
+    font-size: 14px;
+    line-height: 20px;
+    color: inherit;
+}
+
+.single-price{
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.page-title{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.author{
+    grid-column: span 3;
+}
+
+.author-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.author-avatar{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.author-name{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.rating{
+    margin-bottom: 4px;
+}
+
+.rating-counter{
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.author-status{
+    font-size: 12px;
+}
+
+.button-block{
+    display: block;
+    width: 100%;
+    height: 54px;
+    margin-bottom: 14px;
+    border: none;
+}
+
+.button-success{
+    background-color: #14b4be;
+    border-radius: 5px;
+    color: white;
 }
